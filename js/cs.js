@@ -20,7 +20,7 @@ function generateCodes() {
 
 function generateLink() {
     const item = encodeURIComponent(codes.join(','));
-    const link = `https://dao3.fun/edit/7bd41410a36b72ac7f33?frombox=1&item=${item}`;
+    const link = `https://dao3.fun/edit/7bd41410a36b72ac7f33?frombox=1&item=[${item}]`;
     window.prompt("此链接进去就能增加总换码", link);
 }
 

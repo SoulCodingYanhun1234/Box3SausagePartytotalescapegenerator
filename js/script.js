@@ -20,7 +20,7 @@ function generateCodes() {
 
 function generateLink() {
     const item = encodeURIComponent(codes.join(','));
-    const link = `https://dao3.fun/play/0dfec6ccf47c27bbd7a1?map_name=%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9pro%E6%9C%8D&map_ID=100012848&from=exp&item=${item}`;
+    const link = `https://dao3.fun/play/0dfec6ccf47c27bbd7a1?map_name=%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9pro%E6%9C%8D&map_ID=100012848&from=exp&item=[${item}]`;
     window.prompt("此链接进去就能增加总换码", link);
 }
 
